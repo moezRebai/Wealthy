@@ -49,6 +49,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities.Configuration\WealthySeedData.cs" />
+    <Compile Include="Entities.Configuration\WealthyEntities.cs" />
+    <Compile Include="Entities.Configuration\AccountConfiguration.cs" />
+    <Compile Include="Entities.Configuration\UserConfiguration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -56,7 +60,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Entities.Configuration\" />
+    <Folder Include="Infrastructure\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Wealthy.Model\Wealthy.Model.csproj">
