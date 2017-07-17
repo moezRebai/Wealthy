@@ -56,13 +56,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Source\Wealthy.Model\Wealthy.Model.csproj">
+    <Folder Include="Entities.Configuration\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Wealthy.Model\Wealthy.Model.csproj">
       <Project>{80b619a5-8e2f-4bfc-ae84-d342783a6ba4}</Project>
       <Name>Wealthy.Model</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Entities.Configuration\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
