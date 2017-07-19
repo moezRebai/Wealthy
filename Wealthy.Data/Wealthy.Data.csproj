@@ -53,15 +53,19 @@
     <Compile Include="Entities.Configuration\WealthyEntities.cs" />
     <Compile Include="Entities.Configuration\AccountConfiguration.cs" />
     <Compile Include="Entities.Configuration\UserConfiguration.cs" />
+    <Compile Include="Infrastructure\DbFactory.cs" />
+    <Compile Include="Infrastructure\Helpers\DisposableBase.cs" />
+    <Compile Include="Infrastructure\Interfaces\IDbFactory.cs" />
+    <Compile Include="Infrastructure\Interfaces\IRepository.cs" />
+    <Compile Include="Infrastructure\Interfaces\IUnitOfWork.cs" />
+    <Compile Include="Infrastructure\UnitOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Infrastructure\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\Wealthy.Model\Wealthy.Model.csproj">
       <Project>{80b619a5-8e2f-4bfc-ae84-d342783a6ba4}</Project>

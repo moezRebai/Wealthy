@@ -13,6 +13,7 @@ namespace Wealthy.Data.Entities.Configuration
         public WealthyEntities() : base("WealthyEntities") { }
 
         public DbSet<User> Users { get; set; }
+
         public DbSet<Account> Accounts { get; set; }
 
         public virtual void Commit()
